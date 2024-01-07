@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "exchangesimulation"
+version = "0.1.0"
+description = "A package to simulate different scenarios of exchange rate fluctuations and calculate the return of investment"
+authors = ["Krishna Soni <krinut7@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "exchangesimulation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pandas3 = "^0.0.1"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^3.13.0"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
+major_version_zero = true
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
