@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "exchangesimulation"
-version = "0.1.0"
+version = "0.2.0"
 description = "A package to simulate different scenarios of exchange rate fluctuations and calculate the return of investment"
 authors = ["Krishna Soni <krinut7@gmail.com>"]
 license = "MIT"
