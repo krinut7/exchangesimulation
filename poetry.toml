@@ -1,0 +1,9 @@
+[virtualenvs]
+path = ".venv"
+in-project = true
+
+[certificates.PyPI]
+cert = false
+
+[certificates.fpho]
+cert = false
